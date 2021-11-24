@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Funky Olive";
+  src: local('Funky Olive'), url("../fonts/FunkyOlive-Mixed.ttf") format('truetype')
+}
+body {
+  margin: 0px;
+  background-color: #333333;
+  margin: auto;
+  max-width: 1200px;
+  font-size: 20px;
+}
+h1, h2, h4 {
+  font-family: "Walter Turncoat";
+  font-weight: 200;
+  font-size: 16;
+}
+#titleOne {
+  font-family: "Funky Olive";
+}
+.pageStyles {
+  color: #232129;
+  font-family: "Economica";
+  font-size: 1em;
+}
+.darkCard {
+  background-color: #222222;
+  border-radius: 12px;
+  border: 2px solid #5f1c17;
+  box-shadow: 5px 5px 3px -1px #222222;
+  color: white;
+}
+/* no top border-radius for the background of Blog and FAQ */
+.darkCardPage {
+  background-color: #222222;
+  border-radius: 0 0 12px 12px;
+  border: 2px solid #5f1c17;
+  box-shadow: 5px 5px 3px -1px #222222;
+  color: white;
+  width: 88%;
+  max-width: 976;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  justify-items: center;
+}
+.lightCard {
+  background-color: #343333;
+  border-radius: 12px;
+  border: 2px solid #5f1c17;
+  box-shadow: 5px 5px 3px -1px #222222;
+  color: white;
+}
+.linkStyle {
+    color: white;
+    text-decoration: none;
+}
