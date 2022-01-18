@@ -33,6 +33,9 @@ export const query = graphql`
         body {
           ... on PrismicBlogPostDataBodyVideoHighlights {
             items {
+              video_src {
+                url
+              }
               video_title {
                 text
               }
