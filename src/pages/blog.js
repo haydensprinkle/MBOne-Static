@@ -50,7 +50,6 @@ const Blog = () => {
       }
     }
   `);
-  console.log(data);
   const blogPosts = data.allPrismicBlogPost.nodes;
   return (
     <main className={pageStyles}>
