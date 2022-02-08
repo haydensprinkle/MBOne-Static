@@ -32,6 +32,3 @@ export const VideoHighlight = (slice) => {
     </section>
   );
 };
-
-//a graphql query was in the tutorial, I have no idea what it does
-//export const query = graphql``;
