@@ -2,11 +2,12 @@
 
 import * as React from "react";
 import { VideoHighlight } from "../slices/VideoHighlight";
+import { RichText } from "../slices/RichText";
 
 const SliceZone = ({ sliceZone }) => {
-  console.log("here is SliceZone's prop", sliceZone);
   const sliceComponents = {
     video_highlights: VideoHighlight,
+    rich_text: RichText
   };
 
   const SliceZoneContent = () => {

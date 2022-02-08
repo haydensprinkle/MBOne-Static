@@ -53,6 +53,15 @@ export const query = graphql`
             }
             slice_type
           }
+          ... on PrismicBlogPostDataBodyRichText {
+            id
+            items {
+              rich_text {
+                richText
+              }
+            }
+            slice_type
+          }
         }
       }
     }
