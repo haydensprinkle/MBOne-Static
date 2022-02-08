@@ -2,7 +2,6 @@ import * as React from "react";
 import { graphql } from "gatsby";
 
 export const VideoHighlight = (slice) => {
-  console.log(slice);
   return <div>hello</div>;
 };
 

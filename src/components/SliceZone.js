@@ -9,7 +9,6 @@ const SliceZone = ({ sliceZone }) => {
   };
 
   const sliceZoneContent = sliceZone.map((slice, index) => {
-    console.log(slice);
     const SliceComponent = sliceComponents[slice.slice_type];
     if (SliceComponent) {
       return <SliceComponent slice={slice} key={`slice-${index}`} />;
